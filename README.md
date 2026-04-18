@@ -35,8 +35,8 @@ Upon installation, plugins can be enabled, disabled, or uninstalled via the **Ag
 
 **Installed**
 
-![Installed plugins view](./assets/installed.png)
-![Plugin demo screenshot](./assets/demo.png)
+![Installed plugins view](./plugins/example-command/assets/installed.png)
+![Plugin demo screenshot](./plugins/example-command/assets/demo.png)
 
 
 ## 3. Creating New Plugins (`plugin-dev`)
