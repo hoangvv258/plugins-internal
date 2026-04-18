@@ -1,14 +1,23 @@
-# Example Command Plugin ✨
+# Reference Plugin Implementation (`example-command`)
 
-This plugin provides the simplest possible command. It's meant to serve as a starter template to help us learn how to develop extensions for Claude Code inside our team environment.
+This directory contains a structural reference implementation demonstrating how to architect and expose custom agent extensions within the internal environment.
 
-## Available Commands
+## Supported Commands
 
-- `/hello`: Triggers a cheerful welcome message displaying the real-time server timestamp to automatically verify that the custom agent is healthy and running!
+- `/hello`: Invokes a system health protocol that fetches and surfaces the active server timestamp to validate agent execution capabilities.
 
-## Structure Overview
-- `.claude-plugin/plugin.json`: Defines the metadata for this specific plugin.
-- `commands/hello.md`: Contains the actual logic and prompts for our command. Feel free to open this file to see how easy it is to write commands using pure Markdown!
+## Architectural Components
 
-## How to Expand
-If you'd like to add another command (e.g., `/welcome`), simply create a new file at `commands/welcome.md` and follow the exact same format seen in `hello.md`. It's very important to keep the Markdown frontmatter at the top of the file, as it configures the command description and the tools you wish to allow.
+- `.claude-plugin/plugin.json`: Contains the essential metadata and dependency definitions for this package.
+- `commands/hello.md`: Standardized Markdown file containing the frontmatter configuration and execution logic for the specific slash command.
+- `agents/`: Directory reserved for defining custom Copilot agents with dedicated contexts.
+- `hooks/`: Directory for lifecycle event handlers (e.g., `SessionStart`, `PreToolUse`).
+- `skills/`: Directory for housing modular prompt capabilities and tools.
+- `.mcp.json`: External tool configurations utilizing the Model Context Protocol.
+
+## Extension Guidelines
+
+To expand the capability of this plugin (e.g., adding a `/status` command):
+1. Create a corresponding Markdown file within the `commands/` directory (`commands/status.md`).
+2. Implement the standard YAML frontmatter to define the `description` and `allowed-tools` parameters.
+3. Structure the prompt clearly following the contextual paradigm demonstrated in `hello.md`.

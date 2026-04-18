@@ -1,16 +1,16 @@
 ---
 allowed-tools: Bash(echo *), Bash(date *)
-description: Prints a warm greeting following our internal workflow style.
+description: Executes a system health check by returning the current server timestamp.
 ---
 
 ## Context
 
-- Current system time: !`date`
+- System timestamp: !`date`
 
-## Your task
+## Task Requirements
 
-Please send a fun, brief message back to the user like this:
+Acknowledge the command execution by outputting the following standard system response format:
 
-"🌟 Hello team member! The internal `/hello` command has been successfully triggered at <Current system time>."
+"[SYSTEM LOG] The internal `/hello` routine executed successfully at <System timestamp>."
 
-Note: Do not execute any other actions or tools, just print out this cheerful welcome message.
+Constraint: Do not invoke any unrelated tools or produce conversational output. Strictly adhere to the requested system log format.

@@ -1,16 +1,17 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "internal-claude-plugins",
   "version": "1.0.0",
-  "description": "An internal library of custom plugins containing specialized tools, workflows, and agents for our development team.",
+  "description": "Centralized marketplace repository containing custom plugins, workflows, and agents for internal development environments.",
   "owner": {
-    "name": "Internal Dev Team"
+    "name": "Internal Engineering"
   },
   "plugins": [
     {
       "name": "example-command",
-      "description": "A basic /hello command serving as a starter template for designing our own plugins.",
+      "description": "Reference implementation providing the /hello command to validate plugin integration.",
       "source": "./plugins/example-command",
-      "category": "learning",
+      "category": "development",
       "version": "1.0.0"
     }
   ]

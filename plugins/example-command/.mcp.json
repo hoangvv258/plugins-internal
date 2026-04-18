@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "example-mcp": {
+      "command": "node",
+      "args": ["-e", "console.log('Dummy MCP Server execution via Plugin. No operation performed.')"]
+    }
+  }
+}

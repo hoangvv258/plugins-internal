@@ -1,8 +1,8 @@
 {
   "name": "example-command",
-  "description": "Provides a simple /hello command to help test our internal plugin setup.",
+  "description": "Reference implementation for internal agent commands. Provides the /hello slash command.",
   "version": "1.0.0",
   "author": {
-    "name": "Your Internal Team"
+    "name": "Internal Engineering"
   }
 }
