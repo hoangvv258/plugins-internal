@@ -1,63 +1,67 @@
 # Internal Plugin Repository (`plugin-internal`)
 
-Welcome to your Internal Plugin Repository! 🚀 This repository is configured as a standalone "Marketplace" specifically for Claude Code. It's the perfect place to store your internal team plugins, specialized agents, and custom workflows.
+This repository serves as a centralized, standalone Marketplace for Claude Code. It is designed to host and manage internal team plugins, specialized agents, and custom workflows.
 
 ## 1. Directory Structure
 
-Here's how things are laid out:
+The repository maintains the following structure:
 
 ```text
 plugin-internal/
 ├── .claude-plugin/
-│   └── marketplace.json      # The central registry listing all available plugins
+│   └── marketplace.json      # Central registry defining all available plugins
 ├── plugins/
-│   └── example-command/      # Our friendly starter plugin!
-└── README.md                 # You are here!
+│   └── example-command/      # Reference plugin implementation
+└── README.md                 # Repository documentation
 ```
 
-## 2. How to "Install" (Load) These Plugins in VS Code
+## 2. Installation via Visual Studio Code
 
-You can easily install and manage these plugins directly within the Visual Studio Code interface, without using any CLI commands. Before starting, ensure this repository is pushed to a Git host like GitHub or GitLab.
+These plugins can be installed and managed directly within the Visual Studio Code interface without utilizing the command-line interface. Note: Ensure this repository is pushed to a remote Git host (e.g., GitHub, GitLab) prior to installation.
 
-**Method 1: Install via VS Code Command Palette**
-1. Open Visual Studio Code and press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open the Command Palette.
-2. Search for and select **`Chat: Install Plugin From Source`**.
-3. Enter your Git repository URL (for example, `https://github.com/my-org/my-plugin-repo`). VS Code will automatically clone and install the plugin.
+**Method 1: Install via the Command Palette**
+1. Launch Visual Studio Code and open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS).
+2. Execute the **`Chat: Install Plugin From Source`** command.
+3. Provide the remote Git repository URL (e.g., `https://github.com/your-org/plugin-internal`). Visual Studio Code will automatically clone and register the plugin.
 
 **Method 2: Install via the Chat Customizations Editor**
-1. Open the GitHub Copilot / Chat view in VS Code.
-2. Click the **Gear icon** (Settings) located directly in the chat view, then select **Plugins**.
-3. In the Chat Customizations editor, click the **`+` (Add)** button on the Plugins page.
-4. Paste your Git repository URL.
+1. Open the GitHub Copilot / Chat view in Visual Studio Code.
+2. Select the **Gear icon** (Settings) located in the Chat view, then navigate to **Plugins**.
+3. Within the Chat Customizations editor, click the **`+` (Add)** button on the Plugins page.
+4. Input the remote Git repository URL.
 
-**Managing Your Plugins:**
-After installing, you can enable, disable, or uninstall them right from the **Agent Plugins - Installed** view within the VS Code Extensions panel, or via the gear icon in the Chat view. Whenever you trigger commands (like our `/hello`), they will seamlessly integrate into your Copilot Agent workflow!
+**Managing Plugins:**
+Upon installation, plugins can be enabled, disabled, or uninstalled via the **Agent Plugins - Installed** section in the Visual Studio Code Extensions panel, or directly through the Chat view settings. Custom commands (such as the reference `/hello`) will be immediately integrated into the Copilot Agent environment.
 
-## 3. How to Create a New Plugin (using `plugin-dev`)
+**Installed**
 
-The main `claude-code` repository comes with an awesome built-in toolkit called `plugin-dev` to help you scaffold new plugins automatically. Here is the best flow:
+![Installed plugins view](./assets/installed.png)
+![Plugin demo screenshot](./assets/demo.png)
 
-1. In your `claude-code` source directory, launch Claude:
+
+## 3. Creating New Plugins (`plugin-dev`)
+
+New plugins should be scaffolded using the `plugin-dev` toolkit provided in the primary `claude-code` repository to ensure structural consistency.
+
+1. Navigate to your source directory and initialize the CLI:
    ```bash
    claude
    ```
-2. Type the following command to trigger the interactive plugin creator:
+2. Execute the interactive plugin creation workflow:
    ```bash
    /plugin-dev:create-plugin
    ```
-3. Claude will chat with you and guide you step by step!
-   - *What do you want your plugin to do?* (For example: "I want a plugin that automatically formats my code")
-   - Claude will generate all the necessary scaffolding, hook files, and JSON configurations for you.
-4. Once Claude has generated the structure (usually placed in the standard `plugins/` directory), **move that newly generated folder into this repository's `plugin-internal/plugins/` directory.**
-5. Finally, open `plugin-internal/.claude-plugin/marketplace.json` and register your new plugin by appending a block like this into the `"plugins"` array:
+3. Follow the systematic prompts provided by the system to define your plugin's functionality, structure, and required metadata.
+4. Upon successful generation (typically created in a local `plugins/` directory), transfer the newly scaffolded directory into this repository's `plugin-internal/plugins/` directory.
+5. Finalize the integration by registering the new plugin within `plugin-internal/.claude-plugin/marketplace.json`. Append the configuration schema to the `"plugins"` array:
    ```json
    {
-      "name": "your-cool-new-plugin",
-      "description": "What it does...",
-      "source": "./plugins/your-cool-new-plugin",
+      "name": "plugin-identifier",
+      "description": "Functional description of the plugin...",
+      "source": "./plugins/plugin-identifier",
       "category": "development",
       "version": "1.0.0"
    }
    ```
    
-And that's it! 🎉 Whenever your teammates pull the latest `marketplace.json`, they will instantly have access to your brand new plugin!
+Subsequent updates to `marketplace.json` will distribute the new capabilities to downstream users upon synchronization.
