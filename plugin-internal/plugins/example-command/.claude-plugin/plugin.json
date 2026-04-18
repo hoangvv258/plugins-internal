@@ -1,0 +1,8 @@
+{
+  "name": "example-command",
+  "description": "Provides a simple /hello command to help test our internal plugin setup.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Your Internal Team"
+  }
+}
