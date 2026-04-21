@@ -13,6 +13,13 @@
       "source": "./plugins/example-command",
       "category": "development",
       "version": "1.0.0"
+    },
+    {
+      "name": "gcp-data-analytics",
+      "description": "Enterprise GCP Data & Analytics suite — BigQuery, Pub/Sub, Dataflow, Cloud Composer, Dataproc, BigLake/Iceberg, Dataplex, and BQML",
+      "source": "./plugins/gcp-data-analytics",
+      "category": "data",
+      "version": "2.0.0"
     }
   ]
 }

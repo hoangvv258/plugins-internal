@@ -1,0 +1,18 @@
+{
+  "name": "gcp-data-analytics",
+  "version": "2.0.0",
+  "description": "Comprehensive GCP Data & Analytics suite covering BigQuery, Pub/Sub, Dataflow, Cloud Composer, Dataproc, BigLake, Dataplex, and BigQuery ML",
+  "author": {
+    "name": "Hoang VV",
+    "email": "hoangvv258@gmail.com"
+  },
+  "keywords": [
+    "gcp", "google-cloud", "bigquery", "pubsub", "dataflow",
+    "data-analytics", "etl", "cloud-composer", "airflow",
+    "dataproc", "spark", "biglake", "iceberg", "dataplex",
+    "data-governance", "bqml", "machine-learning", "lakehouse"
+  ],
+  "homepage": "https://github.com/hoangvv258/gcp-data-analytics-plugin",
+  "repository": "https://github.com/hoangvv258/gcp-data-analytics-plugin",
+  "license": "MIT"
+}
