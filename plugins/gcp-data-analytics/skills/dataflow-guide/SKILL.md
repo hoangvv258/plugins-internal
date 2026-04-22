@@ -1,6 +1,6 @@
 ---
-name: Dataflow Guide
-description: Apache Beam and Google Cloud Dataflow — Streaming Engine, Prime, YAML pipelines, multi-language, GPU transforms
+name: dataflow-guide
+description: This skill should be used when the user asks to "build a Dataflow pipeline", "write Apache Beam code", "create a YAML pipeline", "configure Streaming Engine", "use Dataflow Prime", "handle data skew in Beam", "set up windowing or triggers", or mentions Dataflow, Apache Beam, streaming pipelines, ParDo, GroupByKey, or multi-language pipelines.
 version: 2.0.0
 ---
 

@@ -1,6 +1,6 @@
 ---
-name: BigQuery ML Guide
-description: Complete guide to BigQuery ML — model training, AI functions, remote models, evaluation, and deployment
+name: bqml-guide
+description: This skill should be used when the user asks to "train a model in BigQuery", "use BigQuery ML", "create BQML model", "evaluate ML model in SQL", "use AI.GENERATE or AI.CLASSIFY", "forecast time series with ARIMA", "deploy BQML model to Vertex AI", or mentions BigQuery ML, BQML, remote models, or AI functions for classification, regression, or clustering.
 version: 1.0.0
 ---
 

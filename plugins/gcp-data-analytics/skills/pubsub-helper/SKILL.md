@@ -1,6 +1,6 @@
 ---
-name: Pub/Sub Helper
-description: Google Cloud Pub/Sub — Export Subscriptions, SMT, Exactly-once, patterns, monitoring, and migration
+name: pubsub-helper
+description: This skill should be used when the user asks to "configure Pub/Sub topics or subscriptions", "set up Export Subscriptions to BigQuery", "implement Single Message Transforms", "enable exactly-once delivery", "design dead letter queues", "filter Pub/Sub messages", "migrate from Kafka to Pub/Sub", or mentions Pub/Sub, event streaming, message ordering, push/pull subscriptions, or Pub/Sub Lite migration.
 version: 2.0.0
 ---
 

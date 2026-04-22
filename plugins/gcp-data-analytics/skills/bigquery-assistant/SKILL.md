@@ -1,6 +1,6 @@
 ---
-name: BigQuery Assistant
-description: Expert guidance on Google Cloud BigQuery — SQL, Graph, Continuous Queries, AI functions, BigLake, optimization
+name: bigquery-assistant
+description: This skill should be used when the user asks to "write a BigQuery query", "optimize BigQuery SQL", "create graph queries with GQL", "set up continuous queries", "use AI functions in BigQuery", "design BigQuery schema", "use pipe syntax", or mentions BigQuery performance, cost optimization, partitioning, clustering, or Search Index.
 version: 2.0.0
 ---
 

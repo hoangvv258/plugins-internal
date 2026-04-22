@@ -1,0 +1,15 @@
+{
+  "name": "aws-migration-suite",
+  "version": "1.0.0",
+  "description": "Full-lifecycle AWS migration plugin covering assessment, strategy, architecture design, Java→Serverless, Struts→Spring, and low-code/WebPerformer migrations",
+  "author": {
+    "name": "Hoang VV",
+    "email": "hoangvv258@gmail.com"
+  },
+  "keywords": [
+    "aws", "migration", "serverless", "java", "struts", "spring",
+    "lambda", "assessment", "modernization", "low-code",
+    "webperformer", "well-architected", "6r-strategy"
+  ],
+  "license": "MIT"
+}

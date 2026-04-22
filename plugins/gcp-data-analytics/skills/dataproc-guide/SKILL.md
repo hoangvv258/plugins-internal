@@ -1,6 +1,6 @@
 ---
-name: Dataproc Guide
-description: Google Cloud Dataproc — Serverless Spark, persistent clusters, BigQuery integration, performance tuning
+name: dataproc-guide
+description: This skill should be used when the user asks to "submit a Spark job on Dataproc", "use Dataproc Serverless", "read BigQuery from PySpark", "tune Spark performance", "configure Dataproc clusters", "use SparkSQL with BigQuery", or mentions Dataproc, PySpark, SparkSQL, Spark Connect, BigQuery-Spark connector, or Lightning Engine.
 version: 1.0.0
 ---
 

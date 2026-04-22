@@ -1,6 +1,6 @@
 ---
-name: Lakehouse Guide
-description: BigLake + Apache Iceberg lakehouse architecture — Dataplex governance, data quality, medallion architecture, multi-engine access
+name: lakehouse-guide
+description: This skill should be used when the user asks to "build a data lakehouse", "create BigLake Iceberg tables", "implement medallion architecture", "set up Dataplex governance", "configure data quality rules", "use Apache Iceberg on GCP", "design bronze-silver-gold layers", or mentions BigLake, Iceberg, Dataplex, lakehouse, time travel, schema evolution, or multi-engine access.
 version: 1.0.0
 ---
 

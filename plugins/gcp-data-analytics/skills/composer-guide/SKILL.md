@@ -1,6 +1,6 @@
 ---
-name: Cloud Composer Guide
-description: Google Cloud Composer (Apache Airflow) — DAG patterns, GCP integration, environment management, CI/CD
+name: cloud-composer-guide
+description: This skill should be used when the user asks to "create an Airflow DAG", "design a Composer pipeline", "orchestrate GCP services", "use BigQuery operators in Airflow", "set up CI/CD for DAGs", "configure Composer environment", or mentions Cloud Composer, Apache Airflow, DAG design, TaskFlow API, or GCP pipeline orchestration.
 version: 1.0.0
 ---
 
