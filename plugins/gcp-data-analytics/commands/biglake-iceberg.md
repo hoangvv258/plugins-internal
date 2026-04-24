@@ -1,6 +1,4 @@
 ---
-id: biglake-iceberg
-name: BigLake & Iceberg Setup
 description: Create BigLake Iceberg tables, configure metastore, enable multi-engine access for lakehouse architecture
 ---
 

@@ -1,6 +1,4 @@
 ---
-id: pubsub-monitoring
-name: Pub/Sub Monitoring & Alerts
 description: Comprehensive monitoring for Pub/Sub topics, subscriptions, Export Subscriptions, and SMT
 ---
 

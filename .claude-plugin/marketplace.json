@@ -20,6 +20,13 @@
       "source": "./plugins/gcp-data-analytics",
       "category": "data",
       "version": "2.0.0"
+    },
+    {
+      "name": "aws-migration-suite",
+      "description": "Full-lifecycle AWS migration plugin — assessment, strategy, architecture, Java→Serverless, Struts→Spring, low-code migration",
+      "source": "./plugins/aws-migration-suite",
+      "category": "migration",
+      "version": "1.0.0"
     }
   ]
 }

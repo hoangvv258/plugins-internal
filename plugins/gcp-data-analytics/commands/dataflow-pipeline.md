@@ -1,6 +1,4 @@
 ---
-id: dataflow-pipeline
-name: Dataflow Pipeline Design
 description: Create Apache Beam pipelines — Streaming Engine, YAML pipelines, multi-language, GPU transforms
 ---
 

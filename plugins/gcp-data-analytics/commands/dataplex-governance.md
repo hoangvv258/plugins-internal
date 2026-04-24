@@ -1,6 +1,4 @@
 ---
-id: dataplex-governance
-name: Dataplex Data Governance
 description: Set up Dataplex Universal Catalog — data quality, lineage, access control, business glossary
 ---
 

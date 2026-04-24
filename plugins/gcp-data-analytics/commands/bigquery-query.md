@@ -1,6 +1,4 @@
 ---
-id: bigquery-query
-name: Write BigQuery Query
 description: Generate, optimize, and validate BigQuery SQL queries — including Pipe Syntax, Graph Queries (GQL), Continuous Queries, and AI functions
 ---
 

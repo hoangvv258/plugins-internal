@@ -1,5 +1,4 @@
 ---
-name: Migration Strategy
 description: Generate a migration strategy document with 6R mapping, roadmap, cost analysis, and risk assessment
 ---
 

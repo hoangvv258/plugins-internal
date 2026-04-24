@@ -1,5 +1,4 @@
 ---
-name: Migration Checklist
 description: Generate a comprehensive migration checklist with pre-migration, during, and post-migration tasks
 ---
 

@@ -1,6 +1,4 @@
 ---
-id: dataflow-cost-optimization
-name: Dataflow Cost Optimization
 description: Optimize Dataflow pipeline costs — Streaming Engine, Prime, Spot VMs, autoscaling, right-sizing
 ---
 

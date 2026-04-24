@@ -1,6 +1,4 @@
 ---
-id: composer-dag
-name: Cloud Composer DAG
 description: Create and deploy Airflow DAGs for GCP data pipeline orchestration
 ---
 

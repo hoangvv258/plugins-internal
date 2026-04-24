@@ -1,6 +1,4 @@
 ---
-id: bigquery-schema-design
-name: BigQuery Schema Designer
 description: Design optimal BigQuery table schemas — partitioning, clustering, BigLake Iceberg, nested types, Search Index
 ---
 

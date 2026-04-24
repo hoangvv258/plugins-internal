@@ -1,6 +1,4 @@
 ---
-id: pubsub-setup
-name: Pub/Sub Configuration
 description: Configure Pub/Sub topics, subscriptions, Export Subscriptions, SMT, and Exactly-once delivery
 ---
 

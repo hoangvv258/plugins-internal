@@ -1,5 +1,4 @@
 ---
-name: Design Architecture
 description: Design target AWS architecture for migrated applications — service selection, diagrams, IaC templates
 ---
 

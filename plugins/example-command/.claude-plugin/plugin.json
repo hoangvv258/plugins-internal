@@ -1,8 +1,0 @@
-{
-  "name": "example-command",
-  "description": "Reference implementation for internal agent commands. Provides the /hello slash command.",
-  "version": "1.0.0",
-  "author": {
-    "name": "Internal Engineering"
-  }
-}

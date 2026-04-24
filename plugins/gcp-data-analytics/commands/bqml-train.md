@@ -1,6 +1,4 @@
 ---
-id: bqml-train
-name: BigQuery ML Training
 description: Train ML models in BigQuery using SQL — classification, regression, forecasting, LLM integration, remote models
 ---
 

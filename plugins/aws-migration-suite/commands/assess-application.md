@@ -1,5 +1,4 @@
 ---
-name: Assess Application
 description: Assess an application for cloud migration readiness — inventory, dependencies, complexity scoring
 ---
 

@@ -1,6 +1,4 @@
 ---
-id: bigquery-continuous-query
-name: BigQuery Continuous Query
 description: Set up real-time continuous queries — event-driven SQL, stateful processing, output to Pub/Sub, Bigtable, Spanner
 ---
 

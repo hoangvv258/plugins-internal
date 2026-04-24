@@ -1,6 +1,4 @@
 ---
-id: dataproc-spark-job
-name: Dataproc Spark Job
 description: Submit and optimize Dataproc Serverless Spark jobs — PySpark, SparkSQL, BigQuery integration
 ---
 

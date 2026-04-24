@@ -1,5 +1,4 @@
 ---
-name: Struts to Spring
 description: Guide Struts 1.x/2.x migration to Spring Boot — component mapping, code conversion, incremental strategy
 ---
 

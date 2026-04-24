@@ -1,5 +1,4 @@
 ---
-name: Java to Serverless
 description: Guide Java application migration to AWS Serverless — Lambda, Spring Cloud Function, SnapStart, Step Functions
 ---
 
